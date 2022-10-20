@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.column {
+   flex-direction: column; 
+}
+
+
+
+
+
+.container {
+    margin-top: 150px;
+}
+
+.week-box {
+    padding: 5px;
+    margin: 10px;
+
+    background-color: rgba(142, 134, 252, .5);
+}
+
+.day-box {
+    padding: 5px;
+    margin: 10px;
+
+    background-color: rgba(115, 208, 217, .5);
+}
+
+.day-box:hover {
+    background-color: rgb(115, 208, 217);
+}
+
+p {
+    text-align: center;
+}
+
+.today {
+    border: 1px solid black;
+}

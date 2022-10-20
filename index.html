@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+
+    <title>Dates</title>
+</head>
+<body>
+    
+    <div class="container flex column">
+        
+        
+        <div class="flex">
+            
+            <div class="week-box" id="week_box">
+                <p class="week-label">Week</p>
+                <p class="week-number" id="week_num"></p>
+            </div>
+
+            <div class="day-box">
+                <p class="day-label">Mon.</p>
+                <p class="day-number" id="mon">1</p>
+            </div>
+
+            <div class="day-box">
+                <p class="day-label">Tues.</p>
+                <p class="day-number" id="tues">2</p>
+            </div>
+
+            <div class="day-box">
+                <p class="day-label">Wed.</p>
+                <p class="day-number" id="wed">3</p>
+            </div>
+
+            <div class="day-box today">
+                <p class="day-label">Thurs.</p>
+                <p class="day-number" id="thurs">4</p>
+            </div>
+
+            <div class="day-box">
+                <p class="day-label">Fri.</p>
+                <p class="day-number" id="fri">5</p>
+            </div>
+
+            <div class="day-box">
+                <p class="day-label">Sat.</p>
+                <p class="day-number" id="sat">6</p>
+            </div>
+
+            <div class="day-box">
+                <p class="day-label">Sun.</p>
+                <p class="day-number" id="sun">7</p>
+            </div>
+
+        </div>
+        
+        
+       
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/plugin/isoWeek.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/plugin/weekday.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
