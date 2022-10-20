@@ -7,56 +7,53 @@
     
     <link rel="stylesheet" href="style.css">
 
+    <script src="https://kit.fontawesome.com/dea95995c1.js" crossorigin="anonymous"></script>
+
     <title>Dates</title>
 </head>
 <body>
     
     <div class="container flex column">
         
-        
-        <div class="flex">
+        <div class="flex column">
             
-            <div class="week-box" id="week_box">
-                <p class="week-label">Week</p>
-                <p class="week-number" id="week_num"></p>
+            <div class="flex column">
+                
+                <p class="month-and-year"></p>
+                
+                <div class="week-box flex"> 
+                    <i class="fa-solid fa-angle-left"></i>
+                    <p class="week"></p>
+                    <i class="fa-solid fa-angle-right"></i>
+                </div>
+
+            </div>
+            
+            <div class="label-box flex">
+                <span>Mon</span>
+                <span>Tue</span>
+                <span>Wed</span>
+                <span>Thu</span>
+                <span>Fri</span>
+                <span>Sat</span>
+                <span>Sun</span>
             </div>
 
-            <div class="day-box">
-                <p class="day-label">Mon.</p>
-                <p class="day-number" id="mon">1</p>
-            </div>
-
-            <div class="day-box">
-                <p class="day-label">Tues.</p>
-                <p class="day-number" id="tues">2</p>
-            </div>
-
-            <div class="day-box">
-                <p class="day-label">Wed.</p>
-                <p class="day-number" id="wed">3</p>
-            </div>
-
-            <div class="day-box today">
-                <p class="day-label">Thurs.</p>
-                <p class="day-number" id="thurs">4</p>
-            </div>
-
-            <div class="day-box">
-                <p class="day-label">Fri.</p>
-                <p class="day-number" id="fri">5</p>
-            </div>
-
-            <div class="day-box">
-                <p class="day-label">Sat.</p>
-                <p class="day-number" id="sat">6</p>
-            </div>
-
-            <div class="day-box">
-                <p class="day-label">Sun.</p>
-                <p class="day-number" id="sun">7</p>
+            <div class="days-box flex">
+                <span class="day" id="mon">1</span>
+                <span class="day" id="tue">2</span>
+                <span class="day" id="wed">3</span>
+                <span class="day" id="thu">4</span>
+                <span class="day" id="fri">5</span>
+                <span class="day" id="sat">6</span>
+                <span class="day" id="sun">7</span>
             </div>
 
         </div>
+     
+
+        
+    
         
         
        

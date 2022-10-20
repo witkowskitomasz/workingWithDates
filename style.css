@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -15,36 +18,41 @@
    flex-direction: column; 
 }
 
-
-
-
-
 .container {
     margin-top: 150px;
 }
 
-.week-box {
-    padding: 5px;
-    margin: 10px;
-
-    background-color: rgba(142, 134, 252, .5);
+.label-box span, .days-box span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 50px;
+    height: 50px;
 }
 
-.day-box {
-    padding: 5px;
-    margin: 10px;
-
-    background-color: rgba(115, 208, 217, .5);
-}
-
-.day-box:hover {
-    background-color: rgb(115, 208, 217);
-}
-
-p {
-    text-align: center;
+.day:hover {
+    background-color: #5BD4A5;
+    font-size: 20px;
 }
 
 .today {
-    border: 1px solid black;
+    border: 2px solid #7D71EB;
+}
+
+.month-and-year {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.week {
+    margin: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+i {
+    color: #D6534F;
+    font-size: 24px;
 }
